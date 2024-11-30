@@ -22,285 +22,285 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Button1 = New Button()
-        Button2 = New Button()
-        Button3 = New Button()
-        Button4 = New Button()
-        Button5 = New Button()
-        Button6 = New Button()
-        Button7 = New Button()
-        Button8 = New Button()
-        Button9 = New Button()
-        Button10 = New Button()
-        Button11 = New Button()
-        Button12 = New Button()
-        Button13 = New Button()
-        Button14 = New Button()
-        Button15 = New Button()
-        Button16 = New Button()
-        Button17 = New Button()
-        Button18 = New Button()
-        Button19 = New Button()
-        TextBox1 = New TextBox()
+        btnEgale = New Button()
+        btnClose = New Button()
+        btnClear = New Button()
+        btn1 = New Button()
+        btnSur = New Button()
+        btn3 = New Button()
+        btn2 = New Button()
+        btnFois = New Button()
+        btn4 = New Button()
+        btn5 = New Button()
+        btn6 = New Button()
+        bntMoins = New Button()
+        btn7 = New Button()
+        btn8 = New Button()
+        btn0 = New Button()
+        bntPlus = New Button()
+        btn9 = New Button()
+        btn00 = New Button()
+        btnDel = New Button()
+        txt = New TextBox()
         SuspendLayout()
         ' 
-        ' Button1
+        ' btnEgale
         ' 
-        Button1.Font = New Font("Segoe UI", 15F)
-        Button1.Location = New Point(180, 360)
-        Button1.Margin = New Padding(1, 15, 15, 15)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(54, 55)
-        Button1.TabIndex = 0
-        Button1.Text = "="
-        Button1.UseVisualStyleBackColor = True
+        btnEgale.Font = New Font("Segoe UI", 15F)
+        btnEgale.Location = New Point(180, 360)
+        btnEgale.Margin = New Padding(1, 15, 15, 15)
+        btnEgale.Name = "btnEgale"
+        btnEgale.Size = New Size(54, 55)
+        btnEgale.TabIndex = 0
+        btnEgale.Text = "="
+        btnEgale.UseVisualStyleBackColor = True
         ' 
-        ' Button2
+        ' btnClose
         ' 
-        Button2.Location = New Point(12, 135)
-        Button2.Margin = New Padding(1, 15, 15, 15)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(54, 55)
-        Button2.TabIndex = 1
-        Button2.Text = "Close"
-        Button2.UseVisualStyleBackColor = True
+        btnClose.Location = New Point(12, 135)
+        btnClose.Margin = New Padding(1, 15, 15, 15)
+        btnClose.Name = "btnClose"
+        btnClose.Size = New Size(54, 55)
+        btnClose.TabIndex = 1
+        btnClose.Text = "Close"
+        btnClose.UseVisualStyleBackColor = True
         ' 
-        ' Button3
+        ' btnClear
         ' 
-        Button3.Location = New Point(68, 135)
-        Button3.Margin = New Padding(1, 15, 15, 15)
-        Button3.Name = "Button3"
-        Button3.Size = New Size(54, 55)
-        Button3.TabIndex = 2
-        Button3.Text = "AC"
-        Button3.UseVisualStyleBackColor = True
+        btnClear.Location = New Point(68, 135)
+        btnClear.Margin = New Padding(1, 15, 15, 15)
+        btnClear.Name = "btnClear"
+        btnClear.Size = New Size(54, 55)
+        btnClear.TabIndex = 2
+        btnClear.Text = "AC"
+        btnClear.UseVisualStyleBackColor = True
         ' 
-        ' Button4
+        ' btn1
         ' 
-        Button4.Location = New Point(12, 191)
-        Button4.Margin = New Padding(1, 15, 15, 15)
-        Button4.Name = "Button4"
-        Button4.Size = New Size(54, 55)
-        Button4.TabIndex = 3
-        Button4.Text = "1"
-        Button4.UseVisualStyleBackColor = True
+        btn1.Location = New Point(12, 191)
+        btn1.Margin = New Padding(1, 15, 15, 15)
+        btn1.Name = "btn1"
+        btn1.Size = New Size(54, 55)
+        btn1.TabIndex = 3
+        btn1.Text = "1"
+        btn1.UseVisualStyleBackColor = True
         ' 
-        ' Button5
+        ' btnSur
         ' 
-        Button5.Font = New Font("Segoe UI", 15F)
-        Button5.Location = New Point(180, 135)
-        Button5.Margin = New Padding(1, 15, 15, 15)
-        Button5.Name = "Button5"
-        Button5.Size = New Size(54, 55)
-        Button5.TabIndex = 4
-        Button5.Text = "÷"
-        Button5.UseVisualStyleBackColor = True
+        btnSur.Font = New Font("Segoe UI", 15F)
+        btnSur.Location = New Point(180, 135)
+        btnSur.Margin = New Padding(1, 15, 15, 15)
+        btnSur.Name = "btnSur"
+        btnSur.Size = New Size(54, 55)
+        btnSur.TabIndex = 4
+        btnSur.Text = "÷"
+        btnSur.UseVisualStyleBackColor = True
         ' 
-        ' Button6
+        ' btn3
         ' 
-        Button6.Location = New Point(124, 191)
-        Button6.Margin = New Padding(1, 15, 15, 15)
-        Button6.Name = "Button6"
-        Button6.Size = New Size(54, 55)
-        Button6.TabIndex = 5
-        Button6.Text = "3"
-        Button6.UseVisualStyleBackColor = True
+        btn3.Location = New Point(124, 191)
+        btn3.Margin = New Padding(1, 15, 15, 15)
+        btn3.Name = "btn3"
+        btn3.Size = New Size(54, 55)
+        btn3.TabIndex = 5
+        btn3.Text = "3"
+        btn3.UseVisualStyleBackColor = True
         ' 
-        ' Button7
+        ' btn2
         ' 
-        Button7.Location = New Point(68, 191)
-        Button7.Margin = New Padding(1, 15, 15, 15)
-        Button7.Name = "Button7"
-        Button7.Size = New Size(54, 55)
-        Button7.TabIndex = 6
-        Button7.Text = "2"
-        Button7.UseVisualStyleBackColor = True
+        btn2.Location = New Point(68, 191)
+        btn2.Margin = New Padding(1, 15, 15, 15)
+        btn2.Name = "btn2"
+        btn2.Size = New Size(54, 55)
+        btn2.TabIndex = 6
+        btn2.Text = "2"
+        btn2.UseVisualStyleBackColor = True
         ' 
-        ' Button8
+        ' btnFois
         ' 
-        Button8.Font = New Font("Segoe UI", 15F)
-        Button8.Location = New Point(180, 191)
-        Button8.Margin = New Padding(1, 15, 15, 15)
-        Button8.Name = "Button8"
-        Button8.Size = New Size(54, 55)
-        Button8.TabIndex = 7
-        Button8.Text = "*"
-        Button8.UseVisualStyleBackColor = True
+        btnFois.Font = New Font("Segoe UI", 15F)
+        btnFois.Location = New Point(180, 191)
+        btnFois.Margin = New Padding(1, 15, 15, 15)
+        btnFois.Name = "btnFois"
+        btnFois.Size = New Size(54, 55)
+        btnFois.TabIndex = 7
+        btnFois.Text = "*"
+        btnFois.UseVisualStyleBackColor = True
         ' 
-        ' Button9
+        ' btn4
         ' 
-        Button9.Location = New Point(12, 247)
-        Button9.Margin = New Padding(1, 15, 15, 15)
-        Button9.Name = "Button9"
-        Button9.Size = New Size(54, 55)
-        Button9.TabIndex = 8
-        Button9.Text = "4"
-        Button9.UseVisualStyleBackColor = True
+        btn4.Location = New Point(12, 247)
+        btn4.Margin = New Padding(1, 15, 15, 15)
+        btn4.Name = "btn4"
+        btn4.Size = New Size(54, 55)
+        btn4.TabIndex = 8
+        btn4.Text = "4"
+        btn4.UseVisualStyleBackColor = True
         ' 
-        ' Button10
+        ' btn5
         ' 
-        Button10.Location = New Point(68, 247)
-        Button10.Margin = New Padding(1, 15, 15, 15)
-        Button10.Name = "Button10"
-        Button10.Size = New Size(54, 55)
-        Button10.TabIndex = 9
-        Button10.Text = "5"
-        Button10.UseVisualStyleBackColor = True
+        btn5.Location = New Point(68, 247)
+        btn5.Margin = New Padding(1, 15, 15, 15)
+        btn5.Name = "btn5"
+        btn5.Size = New Size(54, 55)
+        btn5.TabIndex = 9
+        btn5.Text = "5"
+        btn5.UseVisualStyleBackColor = True
         ' 
-        ' Button11
+        ' btn6
         ' 
-        Button11.Location = New Point(124, 247)
-        Button11.Margin = New Padding(1, 15, 15, 15)
-        Button11.Name = "Button11"
-        Button11.Size = New Size(54, 55)
-        Button11.TabIndex = 10
-        Button11.Text = "6"
-        Button11.UseVisualStyleBackColor = True
+        btn6.Location = New Point(124, 247)
+        btn6.Margin = New Padding(1, 15, 15, 15)
+        btn6.Name = "btn6"
+        btn6.Size = New Size(54, 55)
+        btn6.TabIndex = 10
+        btn6.Text = "6"
+        btn6.UseVisualStyleBackColor = True
         ' 
-        ' Button12
+        ' bntMoins
         ' 
-        Button12.Font = New Font("Segoe UI", 15F)
-        Button12.Location = New Point(180, 247)
-        Button12.Margin = New Padding(1, 15, 15, 15)
-        Button12.Name = "Button12"
-        Button12.Size = New Size(54, 55)
-        Button12.TabIndex = 11
-        Button12.Text = "-"
-        Button12.UseVisualStyleBackColor = True
+        bntMoins.Font = New Font("Segoe UI", 15F)
+        bntMoins.Location = New Point(180, 247)
+        bntMoins.Margin = New Padding(1, 15, 15, 15)
+        bntMoins.Name = "bntMoins"
+        bntMoins.Size = New Size(54, 55)
+        bntMoins.TabIndex = 11
+        bntMoins.Text = "-"
+        bntMoins.UseVisualStyleBackColor = True
         ' 
-        ' Button13
+        ' btn7
         ' 
-        Button13.Location = New Point(12, 303)
-        Button13.Margin = New Padding(1, 15, 15, 15)
-        Button13.Name = "Button13"
-        Button13.Size = New Size(54, 55)
-        Button13.TabIndex = 12
-        Button13.Text = "7"
-        Button13.UseVisualStyleBackColor = True
+        btn7.Location = New Point(12, 303)
+        btn7.Margin = New Padding(1, 15, 15, 15)
+        btn7.Name = "btn7"
+        btn7.Size = New Size(54, 55)
+        btn7.TabIndex = 12
+        btn7.Text = "7"
+        btn7.UseVisualStyleBackColor = True
         ' 
-        ' Button14
+        ' btn8
         ' 
-        Button14.ForeColor = SystemColors.ActiveCaptionText
-        Button14.Location = New Point(68, 303)
-        Button14.Margin = New Padding(1, 15, 15, 15)
-        Button14.Name = "Button14"
-        Button14.Size = New Size(54, 55)
-        Button14.TabIndex = 13
-        Button14.Text = "8"
-        Button14.UseVisualStyleBackColor = True
+        btn8.ForeColor = SystemColors.ActiveCaptionText
+        btn8.Location = New Point(68, 303)
+        btn8.Margin = New Padding(1, 15, 15, 15)
+        btn8.Name = "btn8"
+        btn8.Size = New Size(54, 55)
+        btn8.TabIndex = 13
+        btn8.Text = "8"
+        btn8.UseVisualStyleBackColor = True
         ' 
-        ' Button15
+        ' btn0
         ' 
-        Button15.Location = New Point(68, 359)
-        Button15.Margin = New Padding(1, 15, 15, 15)
-        Button15.Name = "Button15"
-        Button15.Size = New Size(54, 55)
-        Button15.TabIndex = 14
-        Button15.Text = "0"
-        Button15.UseVisualStyleBackColor = True
+        btn0.Location = New Point(68, 359)
+        btn0.Margin = New Padding(1, 15, 15, 15)
+        btn0.Name = "btn0"
+        btn0.Size = New Size(54, 55)
+        btn0.TabIndex = 14
+        btn0.Text = "0"
+        btn0.UseVisualStyleBackColor = True
         ' 
-        ' Button16
+        ' bntPlus
         ' 
-        Button16.Font = New Font("Segoe UI", 15F)
-        Button16.ForeColor = SystemColors.ActiveCaptionText
-        Button16.Location = New Point(180, 303)
-        Button16.Margin = New Padding(1, 15, 15, 15)
-        Button16.Name = "Button16"
-        Button16.Size = New Size(54, 55)
-        Button16.TabIndex = 15
-        Button16.Text = "+"
-        Button16.UseVisualStyleBackColor = True
+        bntPlus.Font = New Font("Segoe UI", 15F)
+        bntPlus.ForeColor = SystemColors.ActiveCaptionText
+        bntPlus.Location = New Point(180, 303)
+        bntPlus.Margin = New Padding(1, 15, 15, 15)
+        bntPlus.Name = "bntPlus"
+        bntPlus.Size = New Size(54, 55)
+        bntPlus.TabIndex = 15
+        bntPlus.Text = "+"
+        bntPlus.UseVisualStyleBackColor = True
         ' 
-        ' Button17
+        ' btn9
         ' 
-        Button17.ForeColor = SystemColors.ActiveCaptionText
-        Button17.Location = New Point(124, 303)
-        Button17.Margin = New Padding(1, 15, 15, 15)
-        Button17.Name = "Button17"
-        Button17.Size = New Size(54, 55)
-        Button17.TabIndex = 16
-        Button17.Text = "9"
-        Button17.UseVisualStyleBackColor = True
+        btn9.ForeColor = SystemColors.ActiveCaptionText
+        btn9.Location = New Point(124, 303)
+        btn9.Margin = New Padding(1, 15, 15, 15)
+        btn9.Name = "btn9"
+        btn9.Size = New Size(54, 55)
+        btn9.TabIndex = 16
+        btn9.Text = "9"
+        btn9.UseVisualStyleBackColor = True
         ' 
-        ' Button18
+        ' btn00
         ' 
-        Button18.ForeColor = SystemColors.ActiveCaptionText
-        Button18.Location = New Point(12, 359)
-        Button18.Margin = New Padding(1, 15, 15, 15)
-        Button18.Name = "Button18"
-        Button18.Size = New Size(54, 55)
-        Button18.TabIndex = 17
-        Button18.Text = "00"
-        Button18.UseVisualStyleBackColor = True
+        btn00.ForeColor = SystemColors.ActiveCaptionText
+        btn00.Location = New Point(12, 359)
+        btn00.Margin = New Padding(1, 15, 15, 15)
+        btn00.Name = "btn00"
+        btn00.Size = New Size(54, 55)
+        btn00.TabIndex = 17
+        btn00.Text = "00"
+        btn00.UseVisualStyleBackColor = True
         ' 
-        ' Button19
+        ' btnDel
         ' 
-        Button19.Location = New Point(124, 135)
-        Button19.Margin = New Padding(1, 15, 15, 15)
-        Button19.Name = "Button19"
-        Button19.Size = New Size(54, 55)
-        Button19.TabIndex = 18
-        Button19.Text = "DEL"
-        Button19.UseVisualStyleBackColor = True
+        btnDel.Location = New Point(124, 135)
+        btnDel.Margin = New Padding(1, 15, 15, 15)
+        btnDel.Name = "btnDel"
+        btnDel.Size = New Size(54, 55)
+        btnDel.TabIndex = 18
+        btnDel.Text = "DEL"
+        btnDel.UseVisualStyleBackColor = True
         ' 
-        ' TextBox1
+        ' txt
         ' 
-        TextBox1.Location = New Point(12, 88)
-        TextBox1.Multiline = True
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(222, 34)
-        TextBox1.TabIndex = 19
+        txt.Location = New Point(12, 88)
+        txt.Multiline = True
+        txt.Name = "txt"
+        txt.Size = New Size(222, 34)
+        txt.TabIndex = 19
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(257, 438)
-        Controls.Add(TextBox1)
-        Controls.Add(Button19)
-        Controls.Add(Button18)
-        Controls.Add(Button17)
-        Controls.Add(Button16)
-        Controls.Add(Button15)
-        Controls.Add(Button14)
-        Controls.Add(Button13)
-        Controls.Add(Button12)
-        Controls.Add(Button11)
-        Controls.Add(Button10)
-        Controls.Add(Button9)
-        Controls.Add(Button8)
-        Controls.Add(Button7)
-        Controls.Add(Button6)
-        Controls.Add(Button5)
-        Controls.Add(Button4)
-        Controls.Add(Button3)
-        Controls.Add(Button2)
-        Controls.Add(Button1)
+        Controls.Add(txt)
+        Controls.Add(btnDel)
+        Controls.Add(btn00)
+        Controls.Add(btn9)
+        Controls.Add(bntPlus)
+        Controls.Add(btn0)
+        Controls.Add(btn8)
+        Controls.Add(btn7)
+        Controls.Add(bntMoins)
+        Controls.Add(btn6)
+        Controls.Add(btn5)
+        Controls.Add(btn4)
+        Controls.Add(btnFois)
+        Controls.Add(btn2)
+        Controls.Add(btn3)
+        Controls.Add(btnSur)
+        Controls.Add(btn1)
+        Controls.Add(btnClear)
+        Controls.Add(btnClose)
+        Controls.Add(btnEgale)
         Name = "Form1"
         Text = "Form1"
         ResumeLayout(False)
         PerformLayout()
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button7 As Button
-    Friend WithEvents Button8 As Button
-    Friend WithEvents Button9 As Button
-    Friend WithEvents Button10 As Button
-    Friend WithEvents Button11 As Button
-    Friend WithEvents Button12 As Button
-    Friend WithEvents Button13 As Button
-    Friend WithEvents Button14 As Button
-    Friend WithEvents Button15 As Button
-    Friend WithEvents Button16 As Button
-    Friend WithEvents Button17 As Button
-    Friend WithEvents Button18 As Button
-    Friend WithEvents Button19 As Button
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents btnEgale As Button
+    Friend WithEvents btnClose As Button
+    Friend WithEvents btnClear As Button
+    Friend WithEvents btn1 As Button
+    Friend WithEvents btnSur As Button
+    Friend WithEvents btn3 As Button
+    Friend WithEvents btn2 As Button
+    Friend WithEvents btnFois As Button
+    Friend WithEvents btn4 As Button
+    Friend WithEvents btn5 As Button
+    Friend WithEvents btn6 As Button
+    Friend WithEvents bntMoins As Button
+    Friend WithEvents btn7 As Button
+    Friend WithEvents btn8 As Button
+    Friend WithEvents btn0 As Button
+    Friend WithEvents bntPlus As Button
+    Friend WithEvents btn9 As Button
+    Friend WithEvents btn00 As Button
+    Friend WithEvents btnDel As Button
+    Friend WithEvents txt As TextBox
 
 End Class
